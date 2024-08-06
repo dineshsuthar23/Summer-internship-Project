@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact Page</title>
+    <link rel="icon" href="Images/DS logo.jpg">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #dfdfdf;
+        }
+
+        header div {
+            text-align: center;
+        }
+
+        .login {
+            text-align: center;
+            padding: 5%;
+            display: grid;
+            grid-template-areas: "auto auto";
+            grid-gap: 1rem;
+        }
+
+        .login input {
+            padding: 2%;
+            width: 90%;
+
+        }
+
+        textarea {
+            width: 205%;
+            padding: 2%;
+            height: 100px;
+        }
+
+        button {
+            margin: 2%;
+            padding: 0%;
+        }
+
+        .btn-submit {
+            color: white;
+            text-decoration: none;
+            width: 30%;
+            height: 55px;
+            background-color: #afafaf;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div>
+            <div class="login">
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="text" name="email" placeholder="E-mail" required>
+                <input type="text" name="phone" placeholder="Phone No." required>
+                <input type="text" name="subject" placeholder="Subject" required>
+                <textarea placeholder="Message"></textarea>
+            </div>
+            <button class="btn-submit"><a href="">SUBMIT</a></button>
+        </div>
+    </header>
+</body>
+
+</html>

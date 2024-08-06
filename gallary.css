@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #caabff;
+}
+body{
+    line-height: 1.2;
+}
+header{
+    background-image: url('Images/BG images/BackgroundImage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+li{
+    list-style: none;
+    padding: 0 23px;
+}
+.list-menubar a{
+    text-decoration:double;
+    color: #ff8080;
+}
+.mylogo{
+    display: flex;
+}
+.mylogo img{
+    margin: 2%;
+}
+.list-menubar{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    padding: 1%;
+}
+.header-gallary{
+    border-bottom: 5px solid #259935;
+}
+#gallary-section-a{
+    margin: 0;
+    text-align: center;
+    background-color: #c5c5c5;
+}
+#gallary-section-a h1{
+    font-size: 300%;
+}
+.gallary-home-page{
+    display: grid;
+    width: 100%;
+    text-align: center;
+    grid-template-areas: "auto auto auto";
+}
+.gallary-home-page div{
+    margin: 10%;    
+}
+.gallary-home-page div img{
+    border-bottom: 3px solid #259935;
+}
+.gallary-home-page h3{
+    background-color: white;
+}
+/* back button for related gallary pages */
+.gallary{
+    border: 0;
+    padding: 10px;
+    font-size: 1rem;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #259935;
+}
+.gallary a{
+    color: black;
+}
+
+
+
+
+
+/* traditional.html, cultural.html, celebrity.html, technical.html, sports.html */
+.traditional-section, .cultural-section, .celebrity-section, .technical-section, .sports-section{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.traditional-photos, .cultural-photos, .celebrity-photos, .technical-photos, .sports-photos{
+    margin: 4%;
+    text-align: center;
+}
+.traditional-photos img, .cultural-photos img, .celebrity-photos img, .technical-photos img, .sports-photos img{
+    border-radius: 10%;
+    border: 3px solid #259935;
+}
+.traditional-photos h1, .cultural-photos h1, .celebrity-photos h1, .technical-photos h1, .sports-photos h1{
+    margin-bottom: 3%;
+    font-size: 400%;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+
+
+
+/* footer */
+footer{
+    background-color: #313131;
+}
+.footer-data{
+    display: flex;
+    width: 100%;
+    color: white;
+    grid-template-rows: 3;
+    grid-gap: 2rem;
+}
+.footer-title-border{
+    text-align: left;
+    border-bottom: 3px solid #ffbb00;
+    width: 5rem;
+}
+.mail, .call{
+    padding: 10px;
+}
+.mail:hover, .call:hover{
+    color: black;
+    background-color: #ffbb00;
+    transition: 0.5s ease-in-out;
+}
+.footer-rows, .footer-connection, .footer-address, .footer-list{
+    width:25%;
+    padding: 2%;
+}
+.footer-rows{
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+}
+.footer-list a:hover{
+    color: black;
+    background-color: #ffbb00;
+    transition: 0.5s ease-in-out;
+    border-radius: 10%;
+}
+.footer-list li{
+    margin-top: 1rem;
+}
+.footer-list a{
+    padding: 10px;
+    text-decoration:none;
+    color: #adadad;
+}
+.footer-address address{
+    margin: 1rem;
+    color: #adadad;
+}
+.footer-connection .fa.fa-instagram:hover, .footer-connection .fa.fa-facebook:hover, .footer-connection .fa.fa-linkedin:hover, .footer-connection .fa.fa-envelope-o:hover{
+    transition: 0.3s ease-in;
+    background-color: #ffbb00;
+}
+.footer-connection .fa.fa-instagram, .footer-connection .fa.fa-facebook, .footer-connection .fa.fa-linkedin, .footer-connection .fa.fa-envelope-o{
+    color: white;
+    background-color: #5e5e5e;
+    border-radius: 50%;
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+    margin: 15px 10px 10px 0px;
+    text-align: center;
+}
+.copyright{
+    text-align: center;
+    color: #ffffff;
+    padding: 2rem;
+    font-size: 20px;
+}

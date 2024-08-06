@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #caabff;
+}
+header{
+    height: 7.5rem;
+    background-image: url('Images/BG images/BackgroundImage.jpg');
+    motion: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 5px solid #259935;
+    position: relative;
+    background-attachment: fixed;
+}
+li{
+    list-style: none;
+    padding: 0 23px;
+}
+.list-menubar a{
+    text-decoration:double;
+    color: #ff8080;
+}
+.mylogo{
+    display: flex;
+}
+.mylogo img{
+    margin: 2%;
+}
+.list-menubar{
+    display: flex;
+    justify-content:flex-end;
+    margin-left:auto;
+    padding: 1%;
+}
+/* section a */
+.work-video{
+    width: 100%;
+}
+.work-gallary{
+    text-align: center;
+}
+.work-gallary h2{
+    margin: 2%;
+    font-size: 200%;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.work-gallary h1{
+    margin: 3%;
+    font-size: 300%;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+
+
+
+
+
+/* footer */
+footer{
+    background-color: #313131;
+}
+.footer-data{
+    display: flex;
+    width: 100%;
+    color: white;
+    grid-template-rows: 3;
+    grid-gap: 2rem;
+}
+.footer-title-border{
+    text-align: left;
+    border-bottom: 3px solid #ffbb00;
+    width: 5rem;
+}
+.mail, .call{
+    padding: 10px;
+}
+.mail:hover, .call:hover{
+    color: black;
+    background-color: #ffbb00;
+    transition: 0.5s ease-in-out;
+}
+.footer-rows, .footer-connection, .footer-address, .footer-list{
+    width:25%;
+    padding: 2%;
+}
+.footer-rows{
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+}
+.footer-list a:hover{
+    color: black;
+    background-color: #ffbb00;
+    transition: 0.5s ease-in-out;
+    border-radius: 10%;
+}
+.footer-list li{
+    margin-top: 1rem;
+}
+.footer-list a{
+    padding: 10px;
+    text-decoration:none;
+    color: #adadad;
+}
+.footer-address address{
+    margin: 1rem;
+    color: #adadad;
+}
+.footer-connection .fa.fa-instagram:hover, .footer-connection .fa.fa-facebook:hover, .footer-connection .fa.fa-linkedin:hover, .footer-connection .fa.fa-envelope-o:hover{
+    transition: 0.3s ease-in;
+    background-color: #ffbb00;
+}
+.footer-connection .fa.fa-instagram, .footer-connection .fa.fa-facebook, .footer-connection .fa.fa-linkedin, .footer-connection .fa.fa-envelope-o{
+    color: white;
+    background-color: #5e5e5e;
+    border-radius: 50%;
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+    margin: 15px 10px 10px 0px;
+    text-align: center;
+}
+.copyright{
+    text-align: center;
+    color: #ffffff;
+    padding: 2rem;
+    font-size: 20px;
+}
