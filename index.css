@@ -245,9 +245,6 @@ footer {
     background-color: #ffbb00;
     transition: 0.5s ease-in-out;
 }
-.footer-connection{
-
-}
 .connectionLink{
     display: flex;
     flex-wrap: wrap;
@@ -256,7 +253,6 @@ footer {
 .footer-connection,
 .footer-address,
 .footer-list {
-    width: 25%;
     padding: 2%;
 }
 
