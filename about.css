@@ -10,6 +10,9 @@ h2{
     padding-bottom:1%;
     font-size: xx-large;
 }
+.bio_text p{
+    text-align: left;
+}
 p{
     text-align: center;
     font-size: 1.3rem;
@@ -72,9 +75,6 @@ li{
     grid-template-rows: 3;
     grid-gap:1rem;
     margin: 1% 10%;
-}
-.bio_text p{
-    text-align: left;
 }
 
 
