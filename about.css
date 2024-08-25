@@ -10,9 +10,6 @@ h2{
     padding-bottom:1%;
     font-size: xx-large;
 }
-.bio_text p{
-    text-align: left;
-}
 p{
     text-align: center;
     font-size: 1.3rem;
@@ -45,6 +42,9 @@ li{
     justify-content:flex-end;
     margin-left:auto;
     padding: 1%;
+}
+.bio_text p{
+    text-align: left;
 }
 .text{
     text-align: center;
